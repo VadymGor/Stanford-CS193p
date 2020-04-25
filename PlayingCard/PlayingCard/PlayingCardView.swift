@@ -29,8 +29,7 @@ class PlayingCardView: UIView {
             break
         }
     }
-    
-    
+       
     private func centeredAttributedString(_ string: String, fontSize: CGFloat) -> NSAttributedString {
         var font = UIFont.preferredFont(forTextStyle: .body).withSize(fontSize)
         // for changing text size on divices by users with slider
