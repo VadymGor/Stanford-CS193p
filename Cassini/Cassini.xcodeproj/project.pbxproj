@@ -14,6 +14,7 @@
 		18778BF1245462EE00D5A44C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18778BEF245462EE00D5A44C /* LaunchScreen.storyboard */; };
 		18778C062454AFDB00D5A44C /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18778C042454AFDB00D5A44C /* DemoURLs.swift */; };
 		18778C092454B04E00D5A44C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18778C082454B04E00D5A44C /* ImageViewController.swift */; };
+		18E17478245C5C560053EACB /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E17477245C5C560053EACB /* CassiniViewController.swift */; };
 		18E42173245C4382003B8978 /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18E42172245C4381003B8978 /* oval.jpg */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		18778BF2245462EE00D5A44C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18778C042454AFDB00D5A44C /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
 		18778C082454B04E00D5A44C /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		18E17477245C5C560053EACB /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 		18E42172245C4381003B8978 /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,8 +62,9 @@
 		18778BE3245462E500D5A44C /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				18778C082454B04E00D5A44C /* ImageViewController.swift */,
+				18E17477245C5C560053EACB /* CassiniViewController.swift */,
 				18778BEA245462E500D5A44C /* Main.storyboard */,
+				18778C082454B04E00D5A44C /* ImageViewController.swift */,
 				18778C042454AFDB00D5A44C /* DemoURLs.swift */,
 				18E42172245C4381003B8978 /* oval.jpg */,
 				18778C032454AE9A00D5A44C /* Supporting Files */,
@@ -156,6 +159,7 @@
 				18778BE5245462E500D5A44C /* AppDelegate.swift in Sources */,
 				18778BE7245462E500D5A44C /* SceneDelegate.swift in Sources */,
 				18778C092454B04E00D5A44C /* ImageViewController.swift in Sources */,
+				18E17478245C5C560053EACB /* CassiniViewController.swift in Sources */,
 				18778C062454AFDB00D5A44C /* DemoURLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
