@@ -15,19 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RLY-IP-jjL">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RLY-IP-jjL">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="414" placeholderIntrinsicHeight="896" translatesAutoresizingMaskIntoConstraints="NO" id="9Xc-2Y-laI">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="9Xc-2Y-laI" firstAttribute="trailing" secondItem="RLY-IP-jjL" secondAttribute="trailing" id="Vw8-H9-Noc"/>
-                                    <constraint firstItem="9Xc-2Y-laI" firstAttribute="top" secondItem="RLY-IP-jjL" secondAttribute="top" id="eso-qc-U3S"/>
-                                    <constraint firstItem="9Xc-2Y-laI" firstAttribute="leading" secondItem="RLY-IP-jjL" secondAttribute="leading" id="vFU-aM-dwd"/>
-                                    <constraint firstAttribute="bottom" secondItem="9Xc-2Y-laI" secondAttribute="bottom" id="vQZ-YV-ZCt"/>
-                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="k7A-J4-g5v"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="A8c-gY-tiT"/>
                             </scrollView>
@@ -42,7 +31,7 @@
                         <viewLayoutGuide key="safeArea" id="lrL-py-q4n"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="9Xc-2Y-laI" id="FRi-3k-kct"/>
+                        <outlet property="scrollView" destination="RLY-IP-jjL" id="nL7-WP-2gu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e9v-mZ-i0q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
