@@ -62,11 +62,11 @@
 		187572512439BCDB00A00AFF /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				187572562439BCDB00A00AFF /* ConcentrationViewController.swift */,
-				187572582439BCDB00A00AFF /* Main.storyboard */,
 				189B85032452D696006CB522 /* ConcentrationThemeChooserViewController.swift */,
 				18757267243B604900A00AFF /* Concentration.swift */,
 				18757269243B725D00A00AFF /* Card.swift */,
+				187572562439BCDB00A00AFF /* ConcentrationViewController.swift */,
+				187572582439BCDB00A00AFF /* Main.storyboard */,
 				187572662439BF2F00A00AFF /* Supporting Files */,
 				187572602439BCDF00A00AFF /* Info.plist */,
 			);
